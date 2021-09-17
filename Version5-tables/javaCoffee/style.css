@@ -1,3 +1,21 @@
+table{
+    margin: auto;
+    width: 90%;
+    border-spacing: 0;
+}
+
+td{
+    padding: 10px;
+}
+
+th{
+    padding: 10px;
+}
+
+tr:nth-of-type(odd){
+    background-color: #D2B48E;
+}
+
 @media(min-width: 1024px){
     
 body{
